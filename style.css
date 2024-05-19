@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.headerlinks {
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    
+    
+}
+.header {
+    display: flex;
+    background-color: #1f2937;
+    height: 80px;
+}
+.headerlogo {
+    color: #f9faf8;
+    font-size: 24px;
+    
+}
+.section1 {
+    background-color: aquamarine;
+    display: flex;
+    
+}
