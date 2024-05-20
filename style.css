@@ -17,8 +17,6 @@
     height: 80px;
     justify-content: center;
     align-items: center;
-    
-    border: solid red;
 }
 .headerlogo {
     color: #f9faf8;
@@ -30,7 +28,7 @@
 .section1 {
     background-color: #1f2937;
     display: flex;
-    border: solid red;
+    justify-content: center;
 }
 .heromain {
     font-size: 48px;
@@ -40,21 +38,18 @@
     padding: 50px;
     width: 375px;
     margin-bottom: -50px;
-    border: solid red;
 }
 .herosec {
     font-size: 18px;
     color: #e5e7eb;
     width: 375px;
     margin-left: 50px;
-    border: solid red;
     padding: 50px; 
     margin-bottom: -40px;
 }
 .signup {
     background-color: #3882F6;
     color: #f9faf8;
-    border: solid red;
     margin-left: 180px;
     margin-bottom: 50px;
     width: 100px;
@@ -65,4 +60,27 @@
     width: 500px;
     height: 300px;
     margin: 80px;
+}
+.sec2flex {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+}
+.smallfontimage {
+    height: 200px;
+    width: 250px;
+}
+.sec2rows {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    height: 300px;
+}
+.sec2head {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
