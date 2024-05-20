@@ -84,3 +84,60 @@
     font-weight: bolder;
     color: #1f2937;
 }
+.section3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb; 
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.quote {
+    width: 700px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.thor {
+    text-align: end;
+    font-weight: 700;
+    font-size: 24px;
+}
+.sect4flex {
+    display: flex;
+    padding: 50px;
+    background-color: #3882F6;
+    margin: 50px 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 200px;
+    border: 4px solid red;
+}
+.sec4text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 2px solid red;
+    padding: 20px;
+    
+}
+.cta {
+    color: #f9faf8;
+    font-size: 20px;
+    font-weight: 700;
+}
+.sec4signup {
+    color: #f9faf8;
+}
+.inversesignup {
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 12px;
+    border: 2px solid white;
+    padding: 20px;
+    font-size: medium;
+    margin-right: 55px;
+
+}
